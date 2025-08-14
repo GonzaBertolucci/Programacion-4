@@ -1,0 +1,15 @@
+# Configuración de Eclipse
+.settings/
+.classpath
+.project
+
+# Archivos generados
+bin/
+*.class
+
+# Otros temporales o de sistema
+.metadata/
+tmp/
+*.log
+.DS_Store
+Thumbs.db
