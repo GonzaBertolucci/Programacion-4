@@ -22,15 +22,16 @@ public class Principal {
 			System.out.println("Error al agregar usuario");
 		}
 	*/
-		//Usuario usuario2 = new UsuarioDao().obtenerUsuario(1);
-		//System.out.println(usuario2.toString());
-		
 		UsuarioDao usuarioDao = new UsuarioDao();
+		Usuario usuario2 = usuarioDao.obtenerUsuario2(2);
+		System.out.println(usuario2.toString());
 		
-		ArrayList<Usuario> lUsuario = usuarioDao.obtenerTodosLosUsuarios();
+		
+		/*ArrayList<Usuario> lUsuario = usuarioDao.obtenerTodosLosUsuarios();
 		for(Usuario user : lUsuario) {
 			System.out.println(user.toString());
 		}
+		*/
 		
 	}
 
