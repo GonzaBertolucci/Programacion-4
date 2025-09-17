@@ -1,17 +1,18 @@
 package dao;
 
 import java.util.ArrayList;
-import entidad.Categoria;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import entidad.Categoria;
+
 public class daoCategoria {
 	private String host = "jdbc:mysql://localhost:3306/";
 	private String user = "root";
 	private String pass = "root";
-	private String dbName = "bdinventario";
+	private String dbName = "bdInventario";
 	
 	
 	public daoCategoria(){
